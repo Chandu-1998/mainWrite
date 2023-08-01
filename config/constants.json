@@ -1,0 +1,50 @@
+{
+  "messages": {
+    "MESSAGE_TO_SEND_OTP": "notifii development team testing message {{otp}}",
+    "MESSAGE_OTP_SUCCESS" : "OTP sent successfully.",
+    "MESSAGE_OTP_VERIFIED" : "OTP verifified successfully.",
+    "MESSAGE_OTP_NOT_FOUND" : "OTP / Phone number not matched in our database. This incident will record.",
+   
+    "MESSAGE_USER_REGISTRATION_SUCCESS" : "Registered successfully.",
+    "MESSAGE_USER_GET" : "Individual profile details.",
+    "MESSAGE_USER_NOT_FOUND" : "We could not find your request in our database. This incident will report.",
+    "MESSAGE_USER_PAYMENT" : "Payment transaction logged successfully.",
+
+    "MESSAGE_WRITER_GET" : "Writer expert added successfully.",
+    "MESSAGE_WRITER_NOT_FOUND" : "No writer(s) found.",
+    "MESSAGE_WRITER_FOUND" : "Writer details.",
+
+    "MESSAGE_KNOWN_LANGUAGE_CREATE" : "Known languages added successfully.",
+    "MESSAGE_KNOWN_LANGUAGE_UPDATE" : "Other known languages updated successfully.",
+
+    "MESSAGE_OTHER_LANGUAGE_CREATE" : "Other languages added successfully.",
+    "MESSAGE_OTHER_LANGUAGE_UPDATE" : "Other languages updated successfully.",
+
+    "MESSAGE_WRITER_EXPERT_CREATE" : "Writer expertise added successfully.",
+    "MESSAGE_WRITER_EXPERT_UPDATE" : "Writer expertise updated successfully.",
+
+    "MESSAGE_WRITER_KNOWLEDGE_CREATE" : "Writer knowledge added successfully.",
+    "MESSAGE_WRITER_KNOWLEDGE_UPDATE" : "Writer knowledge updated successfully.",
+
+    "MESSAGE_TERMS_AND_CONDITIONS_CREATE" : "Terms and conditions added successfully.",
+    "MESSAGE_TERMS_AND_CONDITIONS_UPDATE" : "Terms and conditions updated successfully.",
+
+    "MESSAGE_MASTER_QUESTIONS_GETALL" : "Find all master questions.",
+    "MESSAGE_MASTER_QUESTIONS_GETSIN" : "Find individual master questions.",
+    "MESSAGE_MASTER_QUESTIONS_CREATE" : "Master questions created successfully.",
+    "MESSAGE_MASTER_QUESTIONS_UPDATE" : "Master questions updated successfully.",
+    "MESSAGE_MASTER_QUESTIONS_DELETE" : "Master questions deleted successfully.",
+
+    "MESSAGE_NOTIFICATION_CREATE" : "Notification sent successfully.",
+    "MESSAGE_NOTIFICATION_GET" : "Find Notification logs.",
+
+    "NOT_FOUND" : "We could not find your request in our database. This incident will report.",
+    "NO_ACCESS" : "You are on Guest mode, please register."
+  },
+  "statsuCodes" : {
+    "SUCCESS_STATUS_CODE_CREATED": 201,
+    "SUCCESS_STATUS_CODE_SUCCESS": 200,
+    "SUCCESS_STATUS_CODE_NO_CONTENT": 204,
+    "ERROR_STATUS_CODE_NOT_FOUND": 404
+  }
+}
