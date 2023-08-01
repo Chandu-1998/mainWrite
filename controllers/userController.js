@@ -257,7 +257,7 @@ exports.paymentTransaction = globalException(async (req, res) => {
 
   // Find the existing subscription for the user
   const existingSubscription = await paymentTransaction.findOne({ userId });     
-  // console.log(existingSubscription.endDate,'///////////////////////////////////')
+  console.log(existingSubscription.endDate,'///////////////////////////////////')
   if (existingSubscription) {
     // Check if the existing subscription is active
     if (existingSubscription.endDate >= now) { 
